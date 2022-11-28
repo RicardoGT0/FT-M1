@@ -9,14 +9,17 @@ function nFactorial(n) {
    return result;
 }
 
-/* function nFactorial(n) {
+ function nFactorial(n) {
    if (n<2){
       return 1;
    }else{
+      console.log(n);
       return nFactorial(n-1)*n;
    }
-}*/
-//console.log(nFactorial(170)); //max 170 
+}
+
+
+console.log(nFactorial(5)); //max 170 
 
 // EJERCICIO 2
 /* function nFibonacci(n) {
